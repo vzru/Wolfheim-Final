@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{c6810dfc-626c-41ac-84a8-d0c83462647d}</UniqueIdentifier>
+      <Extensions>glsl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SpriteLib2">
+      <UniqueIdentifier>{5de679c3-046c-416a-88b7-f7aa4b1409f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\SpriteLib2">
+      <UniqueIdentifier>{335b228e-6c31-4c4f-8faa-3b222016c351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpriteLib2">
+      <UniqueIdentifier>{ee925735-389c-4b42-b2ad-00bdfff726ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SFML">
+      <UniqueIdentifier>{035ac8fe-27c1-4d4a-819d-573b32ce8def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SFML\Window">
+      <UniqueIdentifier>{d7bd2bfa-0b59-4b41-85dc-6e0105eedfdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SFML\System">
+      <UniqueIdentifier>{89734994-a201-490b-834d-1b15ec792d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SFML\Network">
+      <UniqueIdentifier>{de20ef2f-fd52-4e82-b0f8-dc25b1301b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SFML\Graphics">
+      <UniqueIdentifier>{53b510ef-a2f2-4135-9a60-a1df614ed94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SFML\Audio">
+      <UniqueIdentifier>{c22f273e-048a-4e11-87b2-71f607156d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GL">
+      <UniqueIdentifier>{9aae0980-a92f-4fe7-835d-b03187f52269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{0b44f47f-51ba-454b-8f8a-502261824c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{9c3d8b6c-4a60-479a-b93c-01f162a59313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{22716243-25d2-43d6-841a-228d8a13d407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{ce4ab3f9-fa9d-453c-b14b-682648cc462f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main">
+      <UniqueIdentifier>{de024dec-bae0-49a0-8198-142072c89050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\old">
+      <UniqueIdentifier>{d43e5ac0-db7b-4372-bb7f-c656570e8c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\player">
+      <UniqueIdentifier>{72e33ca7-4ae5-4106-a990-44bdcd568183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\enemies">
+      <UniqueIdentifier>{6fbb4659-c452-40dc-a8ae-98f10d271da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\levels">
+      <UniqueIdentifier>{ad304356-5d18-4ecf-a1e9-f193238ed942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\story">
+      <UniqueIdentifier>{d415e58a-9037-42ec-851b-1537e34fac0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\sprite.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\text.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\vector3.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\window.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\matrix4x4.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\shader.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\shapes.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="spritelib\debug.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\matrix4x4.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\shader.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\shapes.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\sprite.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\spritelib.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\text.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\vector3.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\window.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio.hpp">
+      <Filter>Header Files\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Config.hpp">
+      <Filter>Header Files\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics.hpp">
+      <Filter>Header Files\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Main.hpp">
+      <Filter>Header Files\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network.hpp">
+      <Filter>Header Files\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\OpenGL.hpp">
+      <Filter>Header Files\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System.hpp">
+      <Filter>Header Files\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window.hpp">
+      <Filter>Header Files\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Context.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\ContextSettings.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Event.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Export.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\GlResource.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Joystick.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Keyboard.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Mouse.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Sensor.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Touch.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\VideoMode.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\Window.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\WindowHandle.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Window\WindowStyle.hpp">
+      <Filter>Header Files\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Clock.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Err.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Export.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\FileInputStream.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\InputStream.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Lock.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\MemoryInputStream.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Mutex.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\NativeActivity.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\NonCopyable.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Sleep.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\String.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Thread.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\ThreadLocal.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Time.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Utf.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Vector2.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\System\Vector3.hpp">
+      <Filter>Header Files\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\Export.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\Ftp.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\Http.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\IpAddress.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\Packet.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\Socket.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\SocketHandle.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\SocketSelector.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\TcpListener.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\TcpSocket.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Network\UdpSocket.hpp">
+      <Filter>Header Files\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\BlendMode.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\CircleShape.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Color.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Drawable.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Export.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Font.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Glsl.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Glyph.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Image.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Rect.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\RenderStates.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Shader.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Shape.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Sprite.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Text.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Texture.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Transform.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Transformable.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\Vertex.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\VertexArray.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Graphics\View.hpp">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\AlResource.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\Export.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\Listener.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\Music.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\Sound.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\SoundSource.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\Audio\SoundStream.hpp">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\BlankVert.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\FilledCircleGeom.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\FilledTriangleGeom.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\LineShaderGeom.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\PassthroughTextureFrag.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\PassthroughTextureVert.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\ShapeFrag.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\TextGeom.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="include\SFML\System\String.inl">
+      <Filter>Header Files\SFML\System</Filter>
+    </None>
+    <None Include="include\SFML\System\Thread.inl">
+      <Filter>Header Files\SFML\System</Filter>
+    </None>
+    <None Include="include\SFML\System\ThreadLocalPtr.inl">
+      <Filter>Header Files\SFML\System</Filter>
+    </None>
+    <None Include="include\SFML\System\Utf.inl">
+      <Filter>Header Files\SFML\System</Filter>
+    </None>
+    <None Include="include\SFML\System\Vector2.inl">
+      <Filter>Header Files\SFML\System</Filter>
+    </None>
+    <None Include="include\SFML\System\Vector3.inl">
+      <Filter>Header Files\SFML\System</Filter>
+    </None>
+    <None Include="include\SFML\Graphics\Glsl.inl">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </None>
+    <None Include="include\SFML\Graphics\Rect.inl">
+      <Filter>Header Files\SFML\Graphics</Filter>
+    </None>
+    <None Include="include\SFML\Audio\SoundFileFactory.inl">
+      <Filter>Header Files\SFML\Audio</Filter>
+    </None>
+    <None Include="assets\Shaders\BlankVert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="assets\Shaders\FilledCircleGeom.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="assets\Shaders\FilledTriangleGeom.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="assets\Shaders\LineShaderGeom.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="assets\Shaders\PassthroughTextureFrag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="assets\Shaders\PassthroughTextureVert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="assets\Shaders\ShapeFrag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="assets\Shaders\TextGeom.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\images\background.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\dkong2.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\dkong.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\HaggarSNEStransp.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\map2.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\Megaman16.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\sprite_sheet_full.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\Enemies\wolf.png">
+      <Filter>Resource Files\images\enemies</Filter>
+    </Image>
+    <Image Include="assets\images\Enemies\wolf_idle.png">
+      <Filter>Resource Files\images\enemies</Filter>
+    </Image>
+    <Image Include="assets\images\Enemies\wolf_old.png">
+      <Filter>Resource Files\images\enemies</Filter>
+    </Image>
+    <Image Include="assets\images\Enemies\wolf_running.png">
+      <Filter>Resource Files\images\enemies</Filter>
+    </Image>
+    <Image Include="assets\images\Enemies\wolf_trotting.png">
+      <Filter>Resource Files\images\enemies</Filter>
+    </Image>
+    <Image Include="assets\images\Player\arm.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\arm_firing.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\arm_idle.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\bullet.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\crosshair.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\player.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\player_climbing.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\player_idle.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\player_running(arm).png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\Player\player_running.png">
+      <Filter>Resource Files\images\player</Filter>
+    </Image>
+    <Image Include="assets\images\bullet.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\crosshair.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\gun_arm.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\player_running.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\player_still.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\Tutorial_level.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\wolf_running.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\wolf_still.png">
+      <Filter>Resource Files\images\old</Filter>
+    </Image>
+    <Image Include="assets\images\Levels\tutorial.png">
+      <Filter>Resource Files\images\levels</Filter>
+    </Image>
+    <Image Include="assets\images\Levels\tutorial_background.png">
+      <Filter>Resource Files\images\levels</Filter>
+    </Image>
+    <Image Include="assets\images\Levels\tutorial_foreground.png">
+      <Filter>Resource Files\images\levels</Filter>
+    </Image>
+    <Image Include="assets\images\Story\intro slide 1.png">
+      <Filter>Resource Files\images\story</Filter>
+    </Image>
+    <Image Include="assets\images\Story\intro slide 2.png">
+      <Filter>Resource Files\images\story</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\fonts\times.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="assets\images\Enemies\wolf.xml">
+      <Filter>Resource Files\images\enemies</Filter>
+    </Xml>
+    <Xml Include="assets\images\Player\arm.xml">
+      <Filter>Resource Files\images\player</Filter>
+    </Xml>
+    <Xml Include="assets\images\Player\player.xml">
+      <Filter>Resource Files\images\player</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

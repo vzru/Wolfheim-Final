@@ -1,0 +1,5 @@
+<TextureAtlas imagePath="player.png">
+	<SubTexture name="wolf_idle.png" x="0" y="64" width="234" height="29"/>
+	<SubTexture name="wolf_running.png" x="0" y="31" width="298" height="31"/>
+	<SubTexture name="wolf_trotting.png" x="0" y="0" width="422" height="29"/>
+</TextureAtlas>

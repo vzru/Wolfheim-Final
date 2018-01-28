@@ -1,0 +1,26 @@
+﻿  Bullet.cpp
+  Enemy.cpp
+  Entity.cpp
+  Gun.cpp
+  main.cpp
+  Object.cpp
+  Player.cpp
+Player.cpp(66): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+Player.cpp(82): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  matrix4x4.cpp
+  shader.cpp
+  shapes.cpp
+  sprite.cpp
+  text.cpp
+  vector3.cpp
+  window.cpp
+spritelib\window.cpp(178): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+spritelib\window.cpp(183): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+spritelib\window.cpp(184): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  All 2271 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\100421055\Desktop\Wolfheim\Fixed\Release\vc120.pdb'; linking object as if no debug info
+  SpriteLib2.vcxproj -> C:\Users\100421055\Desktop\Wolfheim\Fixed\Release\SpriteLib2.exe
+  SpriteLib2.vcxproj -> C:\Users\100421055\Desktop\Wolfheim\Fixed\Release\SpriteLib2.pdb (Full PDB)
